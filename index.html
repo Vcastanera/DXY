@@ -19,18 +19,6 @@
     color: #888;
   }
 </style>
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/INDEX-DXY/" rel="noopener nofollow" target="_blank">
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
-  {
-  "symbol": "INDEX:DXY",
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "locale": "en",
-  "width": "550"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
+<script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-summary.js"></script>
+
+<tv-market-summary symbol-sectors='[{"sectionName":"Indices","symbols":["INDEX:DXY","PYTH:US10Y"]}]' show-time-range direction="horizontal" mode="custom"></tv-market-summary>
