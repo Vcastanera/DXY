@@ -33,7 +33,7 @@
       "INDEX:DXY|1D"
     ],
     [
-      "TVC:US10Y|1D"
+      "PYTH:US10Y|1D"
     ]
   ],
   "dateRanges": [
